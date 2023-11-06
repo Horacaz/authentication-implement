@@ -1,4 +1,3 @@
 import Notification from "./Notification";
 import Login from "./Login";
-export {Notification, Login};
-
+export { Notification, Login };

@@ -1,4 +1,4 @@
-import { Notification, Login } from "./components"
+import { Notification, Login } from "./components";
 
 export default function Home() {
   return (
@@ -6,5 +6,5 @@ export default function Home() {
       <Notification message={"Welcome to the authentication implementation."} />
       <Login />
     </>
-  )
+  );
 }

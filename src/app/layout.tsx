@@ -1,22 +1,22 @@
-import type { Metadata } from 'next'
-import { Roboto } from 'next/font/google'
-import './globals.css'
+import type { Metadata } from "next";
+import { Roboto } from "next/font/google";
+import "./globals.css";
 
-const roboto = Roboto({ subsets: ['latin'], weight: ['400'] })
+const roboto = Roboto({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata: Metadata = {
-  title: 'Authentication Implementation',
-  description: 'An authentication implementation in Next.js',
-}
+  title: "Authentication Implementation",
+  description: "An authentication implementation in Next.js",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body className={roboto.className}>{children}</body>
     </html>
-  )
+  );
 }
